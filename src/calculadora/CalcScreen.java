@@ -584,8 +584,8 @@ public class CalcScreen extends javax.swing.JFrame {
 
     private void jButtonOpResultadoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonOpResultadoActionPerformed
         // Resultado
-        float valor1 = Float.parseFloat(Painel.getText());
-        float valor2 = Float.parseFloat(valor);
+        float valor1 = Float.parseFloat(valor);
+        float valor2 = Float.parseFloat(Painel.getText());
         switch (op) {
             case 1:
                 // Adição
